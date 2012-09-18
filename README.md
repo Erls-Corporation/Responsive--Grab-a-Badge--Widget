@@ -1,4 +1,4 @@
-Responsive--Grab-a-Badge--Widget
+Responsive "Grab-a-Badge" Widget
 ================================
 
-Smaller social.ford.com badge widget adaptation utilizing responsive/adaptive design principles.
+This is the smaller badge widget adaptation utilizing responsive/adaptive design principles I developed for social.ford.com
