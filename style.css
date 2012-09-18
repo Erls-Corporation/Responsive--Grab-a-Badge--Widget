@@ -1,0 +1,145 @@
+
+#content-area .lggrababadge
+{
+	height: 298px;
+	background:#f1f1f1;
+  border:1px solid #ccc;
+}
+
+.lggrababadge h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #3D3D3D;
+  font-size: 40px;
+  margin: 20px 0 0 0;
+  line-height: 40px;
+}
+.lggrababadge h2 {
+  text-align: center;
+  margin: -4px 0 20px 0;
+  color: #797979;
+  font-size: 18px;
+}
+
+.badgeScroller {
+  /* width: 925px; */
+  width: 605px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.badgeScroller .wrapper {
+  width: 825px; /* .badgeScroller width - (.wrapper margin-left + .wrapper margin-right) */
+  width: 505px;
+  overflow: auto;
+  min-height: 10em;
+  margin: 0 50px;
+  position: absolute;
+  top: 0;
+}
+
+
+
+.badgeScroller .wrapper ul {
+  width: 9999px;
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  position: absolute;
+  top: 0;
+}
+
+.badgeScroller ul li {
+  display:block;
+  float:left;
+  height: 200px;
+  width: 170px;
+  text-align:center;
+  position:relative;
+}
+
+.badgeScroller ul li img.badge {
+  display:block;
+  margin:0 auto!important;
+  width:146px;
+  height:138px;
+  z-index:10;
+  position:relative;
+  cursor:pointer;
+}
+
+.badgeScroller .shadow {
+  background-position: 0px -310px;
+  width:145px;
+  height:20px;
+  position: absolute;
+  top: 134px;
+  left:10px;
+  opacity:.08;
+  filter:alpha(opacity=8); 
+  z-index:0;
+}
+
+.badgeScroller .arrow {
+  display: block;
+  height: 45px;
+  width: 45px;
+  text-indent: -999px;
+  position: absolute;
+  top: 45px;
+  cursor: pointer;
+  outline:0;
+}
+
+.badgeScroller .forward {
+  background-position: -45px -439px;
+  right: 0;
+}
+
+.badgeScroller .back {
+  background-position: 0px -439px;
+  left: 0;
+}
+
+.badgeScroller .forward:hover2 {
+	opacity:.8;
+	filter:alpha(opacity=80); 
+}
+
+.badgeScroller .back:hover2 {
+	opacity:.8;
+	filter:alpha(opacity=80);
+}
+
+.badgeScroller .left-grad {
+  width: 15px;
+  height: 160px;
+  background: -moz-linear-gradient(left, rgba(241,241,241,1) 0%, rgba(241,241,241,0) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(241,241,241,1)), color-stop(100%,rgba(241,241,241,0)));
+  background: -webkit-linear-gradient(left, rgba(241,241,241,1) 0%,rgba(241,241,241,0) 100%);
+  background: -o-linear-gradient(left, rgba(241,241,241,1) 0%,rgba(241,241,241,0) 100%);
+  background: -ms-linear-gradient(left, rgba(241,241,241,1) 0%,rgba(241,241,241,0) 100%);
+  background: linear-gradient(left, rgba(241,241,241,1) 0%,rgba(241,241,241,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F1F1F1', endColorstr='#00ffffff',GradientType=1 );
+  position:absolute;
+  left:45px;
+  z-index:15;
+}
+.badgeScroller .right-grad {
+  width: 15px;
+  height: 160px;
+background: -moz-linear-gradient(left, rgba(241,241,241,0) 0%, rgba(241,241,241,1) 100%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(241,241,241,0)), color-stop(100%,rgba(241,241,241,1)));
+background: -webkit-linear-gradient(left, rgba(241,241,241,0) 0%,rgba(241,241,241,1) 100%);
+background: -o-linear-gradient(left, rgba(241,241,241,0) 0%,rgba(241,241,241,1) 100%);
+background: -ms-linear-gradient(left, rgba(241,241,241,0) 0%,rgba(241,241,241,1) 100%);
+background: linear-gradient(left, rgba(241,241,241,0) 0%,rgba(241,241,241,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#F1F1F1',GradientType=1 );
+  position:absolute;
+  right:45px;
+  z-index:15;
+
+}
